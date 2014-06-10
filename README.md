@@ -20,3 +20,5 @@ below mentioned is the syntax
 	timeout     : '4000',   /*here you can define timeout to hide the pop up*/
 	
 });
+
+
