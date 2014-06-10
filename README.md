@@ -31,7 +31,7 @@ no need to change "body"
 
 	effect      : 'on',     /*this is the one of the main part ,define "off" if u are not using jquery ui library*/
 
-	anim        : 'slide',  /*here you can define diffrent animation like slide,fold,bounce,scale*/
+	anim        : 'slide',  /*here you can define diffrent animation like slide,fold,bounce,scale  if you are uisng "jquery ui"*/
 
 	vposition   : 'right',  /*here you can define vertcal postion of pop up*/
 
