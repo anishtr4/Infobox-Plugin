@@ -9,7 +9,7 @@ Any one who knows basic javascript or jquery can easily use this plugin
 
 
 
-![alt tag](https://raw.githubusercontent.com/anishtr4/Infobox-Plugin/master/infobox.png)
+![alt tag](https://raw.githubusercontent.com/anishtr4/Infobox-Plugin/master/infoboxnew.png)
 
 
 
