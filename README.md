@@ -1,4 +1,4 @@
-Infobox_plugin
+Infobox Plugin
 ==============
 
 Highly customizable Infobox Error message jquery plugin
