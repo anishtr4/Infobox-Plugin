@@ -39,3 +39,8 @@ no need to change "body"
 
 	timeout     : '4000',   /*here you can define timeout to hide the pop up*/
 	});
+
+
+## License
+
+Released under the MIT License.
