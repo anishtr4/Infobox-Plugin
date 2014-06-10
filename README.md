@@ -1,4 +1,4 @@
-Infobox_plugin
+Infobox Plugin
 ==============
 
 Highly customizable Infobox Error message jquery plugin
@@ -6,12 +6,26 @@ Highly customizable Infobox Error message jquery plugin
 you can use either with "jquery ui" library to get extra aniamtion effect on pop up or else you can also use only with "jquery" library
 Any one who knows basic javascript or jquery can easily use this plugin 
 
+
+
+
+![alt tag](https://raw.githubusercontent.com/anishtr4/Infobox_plugin/master/infoboxjqplugin.png)
+
+
+
+
 below mentioned is the syntax 
 
-$("body").infobox({
+
+ 
+    $("body").infobox({
+ 
     type        : 'sucess',    /*here you can define sucess, error ,normal*/
+    
 	tittle      : 'succes You made it',  /*here you can define error message tittle*/
+	
     message     : 'You passed success fully',  /*here you can define error message*/
+    
 
 	overlay     : 'true',   /*here you can define "true' or "false" to hide overlay while pop*/
 
