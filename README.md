@@ -9,14 +9,14 @@ Any one who knows basic javascript or jquery can easily use this plugin
 below mentioned is the syntax 
 
 
-
+"
  $("body").infobox({
 
-        type        : 'sucess',    /*here you can define sucess, error ,normal*/
+    type        : 'sucess',    /*here you can define sucess, error ,normal*/
 
 	tittle      : 'succes You made it',  /*here you can define error message tittle*/
 
-     message     : 'You passed success fully',  /*here you can define error message*/
+    message     : 'You passed success fully',  /*here you can define error message*/
 
 	overlay     : 'true',   /*here you can define "true' or "false" to hide overlay while pop*/
 
@@ -33,5 +33,5 @@ below mentioned is the syntax
 	
 });
 
-
+"
 
