@@ -14,9 +14,9 @@ Any one who knows basic javascript or jquery can easily use this plugin
 
 
 
-below mentioned is the syntax 
+## Basic usage
 
-
+no need to change "body" 
  
     $("body").infobox({
  
