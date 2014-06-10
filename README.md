@@ -5,7 +5,14 @@ Highly customizable Infobox Error message jquery plugin
 
 you can use either with "jquery ui" library to get extra aniamtion effect on pop up or else you can also use only with "jquery" library
 Any one who knows basic javascript or jquery can easily use this plugin 
-![alt tag](https://github.com/anishtr4/Infobox_plugin/blob/master/infoboxjqplugin.png)
+
+
+
+
+![alt tag](https://raw.githubusercontent.com/anishtr4/Infobox_plugin/master/infoboxjqplugin.png)
+
+
+
 
 below mentioned is the syntax 
 
