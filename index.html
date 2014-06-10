@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/infobox.css">
+
+<style type="text/css">
+#error,#sucess,#normal
+{
+  position:relative;
+  width:80px;
+  height:40px;
+  background-color:#666; 
+  float:left;
+  margin-left:10px;
+  text-align:center;
+  line-height:40px;	
+}
+</style>
+
+</head>
+
+<body >
+
+<div id="error">Error</div>
+<div id="sucess">Sucess</div>
+<div id="normal">Normal</div>
+
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script type='text/javascript' src='js/infobox.js'></script>
+<script type="text/javascript">
+
+$( "#error" ).click(function() {
+ $("body").infobox({
+    type        : 'error',
+	tittle      : 'Fatal Error',
+    message     : 'You got an error',
+	overlay     : 'true',
+	effect      : 'on',
+	anim       : 'bounce',  /*slide,fold,bounce,,scale*/
+	vposition   : 'right',
+	hposition   : 'bottom',
+	timeout     : '4000',
+	
+});
+});
+
+$( "#sucess" ).click(function() {
+ $("body").infobox({
+    type        : 'sucess',
+	tittle      : 'succes You made it',
+    message     : 'You passed success fully',
+	overlay     : 'true',
+	effect      : 'on', 
+	anim       : 'slide',  /*slide,fold,bounce,scale*/
+	vposition   : 'right',
+	hposition   : 'bottom',
+	timeout     : '4000',
+	
+});
+});
+$( "#normal" ).click(function() {
+ $("body").infobox({
+    type        : 'normal',
+	tittle      : 'Please continue',
+    message     : 'Continue your task and update ',
+	overlay     : 'true',
+	effect      : 'on', 
+	anim       : 'scale',  /*slide,fold,bounce,scale*/
+	vposition   : 'right',
+	hposition   : 'bottom',
+	timeout     : '4000',
+	
+});
+});
+
+
+</script>
+</body>
+</html>
