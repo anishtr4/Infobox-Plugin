@@ -8,7 +8,7 @@ Any one who knows basic javascript or jquery can easily use this plugin
 
 below mentioned is the syntax 
 
-
+![alt tag](http://s24.postimg.org/koh336rmb/infoboxjqplugin.png)
 
     $("body").infobox({
     type        : 'sucess',    /*here you can define sucess, error ,normal*/
