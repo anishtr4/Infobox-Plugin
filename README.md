@@ -29,7 +29,7 @@ no need to change "body"
     message     : 'You passed success fully',  /*here you can define error message*/
     
 
-	overlay     : 'true',   /*here you can define "true' or "false" to hide overlay while pop*/
+	overlay     : 'true',   /*here you can define "true' or "false" to hide overlay while pop up*/
 
 	effect      : 'on',     /*this is the one of the main part ,define "off" if u are not using jquery ui library*/
 
