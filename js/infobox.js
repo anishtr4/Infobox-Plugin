@@ -1,5 +1,17 @@
-//created by  anish  
-//for more info contact me on :anishtr4@gmail.com
+/*!codex-graph*/
+/**
+
+ *
+ * Version: 1.0.0 (16/07/2014)
+ * Requires: jQuery v1.6+
+ *
+ * Copyright (c) 2014 Anish
+ * Under MIT and GPL licenses:
+ *  http://www.opensource.org/licenses/mit-license.php
+ *  http://www.gnu.org/licenses/gpl.html
+ *
+ * Developer :Anish
+ */
 
 (function ($) {
 
@@ -15,7 +27,9 @@
             overlay: 'true',
             vposition: 'left',
             hposition: 'top',
-            timeout: '1000'
+            timeout: '1000',
+            speed : '1000',
+            animatefrom:'up'
         }, options);
 
         return this.each(function () {
@@ -31,6 +45,8 @@
             overlay_element = settings.overlay;
             animation_effect = settings.effect;
             animation_type = settings.anim;
+            animation_from = settings.animatefrom;
+            animation_speed = parseInt(settings.speed);
 
             if (mbox_type == "error") {
                 tittle = "<div class='infobox_title _error'>" + mbox_tittle + "</div>";
@@ -87,8 +103,8 @@
 
             if (animation_effect == "on") {
                 $(mm_box).show(animation_type, {
-                    direction: 'top'
-                }, 1000);
+                    direction: animation_from
+                }, animation_speed);
             } else {
                 $(mm_box).stop(true, false).slideDown("slow");
             }
