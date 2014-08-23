@@ -1,4 +1,4 @@
-/*!codex-graph*/
+/*!codex-infobox*/
 /**
 
  *
