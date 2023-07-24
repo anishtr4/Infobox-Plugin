@@ -3,8 +3,7 @@ Infobox Plugin
 
 Highly customizable light weight pop up plugin
 
-you can use either with "jquery ui" library to get extra aniamtion effect on pop up or else you can also use only with "jquery" library
-Any one who knows basic javascript or jquery can easily use this plugin 
+You can incorporate extra animation effects on pop-ups using either the "jQuery UI" library or the regular "jQuery" library. This plugin is straightforward to use, making it accessible to all users.
 
 
 
